@@ -1,0 +1,48 @@
+body{
+    width: 800px;
+    margin:0 auto; 
+    border: 2px solid black;
+}
+h4{
+    padding-left: 1%;
+}
+.Mock{
+    border-bottom: 2px solid black;
+}
+#head{
+    margin: 5% auto;
+    width: 90%;
+    height: 80px;
+    background-color: rgba(138, 12, 138, 0.945);
+    border: solid;
+    display: flex;
+    align-content: center;
+}
+.shape1{
+    background-color: crimson;
+    border: solid;
+    width: 25%;
+    height: 500px;
+}
+.shape2{
+    background-color: rgb(151, 245, 151);
+    border: solid;
+    width: 25%;
+    height: 500px;
+}
+.shape3{
+    background-color: peru;
+    border: solid;
+    width: 25%;
+    height: 500px;
+}
+
+#container{
+    margin: 4% auto;
+    padding-top: 4%;
+    width: 90%;
+    justify-content: space-between;
+    align-items: stretch;
+    display: flex;
+    flex-flow: row wrap;
+}
